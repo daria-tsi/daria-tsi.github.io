@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  
+   body {
+    font-family: Ysabeau SC;
+    background-color: #121212;
+    color: white;
+    font-weight: 100;
+      font-size: 24px;
+  }
+  
+  header {
+  padding: 36;
+  }
+  
+  a {
+    text-decoration: none;
+    }
+  a:visited {
+    color: white;
+  } 
+  
+  .logo {
+  color: white;
+  margin-left: 72px;
+  
+      display: inline;
+      float:left;
+  }
+  
+  .contact {
+      color: white;
+      margin-right: 72px;
+        display: inline;
+      float:right;
+  }
+  
+  #welcome-section {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  white-space: nowrap;
+  overflow: hidden;
+        font-size: 3rem;
+  line-height: 60px;
+  text-align: left;
+  padding-top:100px;
+  padding-left:100px;
+  padding-right:100px;
+  }
+  
+  #welcome-section2 {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  white-space: nowrap;
+  overflow: hidden;
+        font-size: 3rem;
+  line-height: 3.7rem;
+  text-align: left;
+  padding-bottom:100px;
+  padding-left:100px;
+  padding-right:100px;
+  }
+  
+  .project-text {
+      padding-bottom: 28px;
+      font-size: rem;
+  }
+  
+  #projects {
+      padding-left: 72px;
+      padding-bottom: 28px;
+  }
+  
+  .project-tile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px 10px;
+  }
+  
+  .project-tile img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 1px;
+  }
+  
+  .skills {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2rem;
+    padding-bottom: 7px;
+    border-bottom: solid 1px white;
+    border-top: solid 0.5px white;
+    margin-bottom: 28px;
+  
+  }
+  
+  .portfolio {
+      margin-left: 72px;
+      font-size: rem;
+      padding-bottom: 36px;
+  }
+  
+  #contacts {
+      padding-left: 72px;
+      font-size: rem;
+      margin-bottom: 36px;
+  }
+  .bold {
+      font-weight: 300;
+  }
+  
+  @media screen and (max-device-width: 480px) {
+    #welcome-section {
+      text-align: center;
+      margin: auto;
+    }
+  }
